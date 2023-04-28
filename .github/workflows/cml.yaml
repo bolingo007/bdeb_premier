@@ -16,7 +16,7 @@ jobs:
           echo "## Metriques:" >> report.md
           cat metrics.txt >> report.md
           git config --global user.email "bmouyam@yahoo.fr"
-          git config --global user.name "Bertin Mouya Madi"
+          git config --global user.name "bolingo007"
           git add report.md metrics.txt
           git commit -m "pousser vers github repository"
           git push origin HEAD:master
