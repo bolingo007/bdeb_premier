@@ -17,7 +17,7 @@ jobs:
           echo "## Metriques:" >> report.md
           cat metrics.txt >> report.md
           echo "## Data Visualisation" >> report.md
-          cml-send-comment metrics.txt
+          ##cml-send-comment metrics.txt
           cml-send-comment report.md
           ##Ajouter à la fin de votre fichier yaml ces instructions afin de recuperer les fichiers
           git config --global user.email "bmouyam@yahoo.fr" :
